@@ -1,0 +1,735 @@
+body{
+	font-family: 'Pontano Sans', sans-serif;
+}
+
+/*------------------- HEADER --------------*/
+.navbar{
+	background: #F29203;
+}
+
+.navbar .navbar-collapse ul li{
+	margin: 7px;
+}
+
+.navbar .navbar-collapse button{
+	background-color: #573002;
+	border:none;
+	color: white;
+}
+
+/*------------------- HEADER --------------*/
+.header{
+	height: 366px ;
+	width: 100%;
+	background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.8)),  url(../img/gambar11.jpg);
+	background-size: cover;
+	mix-blend-mode: darken;
+	opacity: 0.9;
+	
+}
+@media (max-width: 591px){
+	.header{
+	width: auto;
+	height: 176px ;
+}
+}
+/**/
+.header-title {
+	position: relative;
+	top: -150px;
+	left: 5%; 
+	text-align: center;
+	width: 50%;
+	
+}
+	.header-title h3{
+	font-size: 126%;
+	color: white;
+	letter-spacing: 1px;
+	 font-family: sans-serif;
+}
+
+	.header-title h1{
+	font-size: 146%;
+	margin-left:5%;
+	text-shadow: 0 0 5px #F29203, 0 0 10px black;
+	letter-spacing: 0px;
+	margin-top: -2%;
+	 font-family: 'Quintessential', cursive;
+  	color: #12DB0E;
+}
+
+	.header-title p{
+	font-size: 100%;
+	margin-top: 3%;
+	text-align: center;
+	font-family: Quicksand,sans-serif;
+  	color: #F5FA13;
+}
+
+
+
+@media (min-width: 991px){
+	
+.header-title {
+  position: absolute;
+  top: 18%;
+  left: 14%; 
+  width: auto;
+}
+
+.header-title h3{
+  font-family: sans-serif;
+  font-size: 296%;
+  color: white;
+  letter-spacing: 7px;
+}
+
+.header-title h1{
+  font-family: 'Quintessential', cursive;
+  color: #12DB0E;
+  font-size: 336%;
+  margin-left:10%;
+  text-shadow: 0 0 5px #F29203, 0 0 10px black;
+  letter-spacing: 2px;
+  margin-top: -2%;
+}
+
+.header-title p{
+	width: auto;
+  font-family: Quicksand,sans-serif;
+  color: #F5FA13;
+  font-size: 190%;
+  margin-top: 3%;
+}
+
+}
+
+/**/
+
+.header-tombol .btn{
+	width: 60px;
+	height: 55px;
+	top: -270px;
+	right: -55%;
+	padding:10px;
+	margin-top: 5px;
+	margin-right: 1px;
+	border-radius: 10px;
+	display: outline;
+	position: relative;
+	
+}
+
+.header-tombol .btn span{
+	font-size: 25px;
+}
+
+.header-tombol .btn h6{
+	margin-top: -10%;
+	font-size: 60%;
+}
+
+@media (min-width: 891px){
+	.header-tombol .btn span{
+	font-size: 48px;
+}
+	.header-tombol .btn h6{
+	font-size: 90%;
+	
+}
+	.header-tombol .btn{
+	width: 90px;
+	height: 90px;
+	padding-top: 10px;
+	margin-top: 10px;
+	margin-right: 8px;
+	top: -290px;
+	right: -70%;
+	border-radius: 20px;
+	position: relative;
+}
+}
+
+
+
+
+/*------------------ PRODUK -------------------*/
+.prote{
+width: 100%;
+height: auto;
+background: #EADFD2;
+padding: 50px;
+}
+
+.prote-judul{
+	margin-top: 5%;
+	margin-left: 10%;
+	position: relative;
+	top: 20px;
+	font-family: Quicksand,sans-serif;
+}
+.prote .prote-isi .card{
+	border-radius: 9px;
+}
+.prote .prote-isi .card:hover{
+	box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.45);
+}
+
+.prote .prote-isi .card img{
+	width: auto;
+	height: 200px;
+	margin: 10px;
+	border-radius: 5px;
+	box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.25);
+}
+
+.prote .prote-isi .card h5{
+	letter-spacing: 3px;
+	margin-top: -10%;
+	font-weight:  bold;
+}
+
+.prote .prote-isi .card a{
+}
+
+.prote .prote-isi .card h4{
+	float: right;
+	font-size: 130%;
+}
+
+
+/*------------------ FOOTER -------------------*/
+footer{
+	width: 100%;
+	height: auto;
+	background-color:#392F2F; 
+	margin-top: 5%;
+	color: white;
+	padding-top:20px;
+	padding-bottom: 60px;
+}
+
+footer h3{
+	font-family: Quicksand,sans-serif;
+	font-size: 140%;
+	border-bottom: 2px solid grey;
+	padding-top: 20px;
+	letter-spacing: 3px;
+}
+
+footer .kapro a{
+	letter-spacing: 1px;
+	text-decoration: none;
+	color: white;
+}
+footer .kapro a:hover{
+	color: grey;
+}
+footer .mepe img{
+	width:80px; 
+	height:35px; 
+	padding: 5px;
+}
+
+
+.copyright{
+	width: 100%;
+	height: 50px;
+	background-color: black;
+	color: white;
+	
+}
+
+.copyright h3{
+	
+	font-size: 100%;
+	padding: 15px;
+	
+}
+
+
+
+.owl-carousel{
+	margin-top: -190px;
+}
+.owl-carousel img{
+border-radius: 15px;
+
+
+}
+
+
+/*----------------------------- BANTUAN---------------*/
+.info-kuning{
+	width: 100%;
+	height: auto;
+	background:#F29203;
+	padding: 10px;
+	color: white;
+	margin-top: -250px;
+}
+
+.info-kuning small{
+	font-size: 150%;
+
+}
+
+@media (min-width: 991px){
+	.info-kuning{
+	padding: 20px;
+	margin-top: -200px;
+	
+}
+}
+
+/**/
+.menu-bantuan{
+	width: 100%;
+	height: auto;
+	background-color: #EADFD2;
+	margin-top: 0px;
+	padding: 20px;
+
+	}
+.menu-bantuan a{
+	text-decoration: none;
+	color: black;
+	display: inline-block;
+	padding: 40px;
+	margin: 10px;
+}
+
+.menu-bantuan span{
+	font-size: 400%;
+}
+
+
+.menu-bantuan ul li a:hover{
+	color: #F29203;
+}
+
+@media (max-width: 591px){
+	.menu-bantuan{
+	padding: 4px;
+	}
+	.menu-bantuan a{
+	text-decoration: none;
+	color: black;
+	display: inline-block;
+	padding: 0px;
+	margin: 10px;
+	}
+	.menu-bantuan span{
+		font-size: 200%;
+	}
+	.menu-bantuan h4{
+		font-size: 90%;
+	}
+
+	}
+
+/**/
+.perusahaan{
+	border-bottom: 3px solid #F29203;
+}
+
+.perusahaan h1{
+	letter-spacing: 4px;
+	padding: 15px;
+	margin-bottom: 4%;
+	font-family: Quicksand,sans-serif;
+}
+
+.perusahaan img{
+	width: 100%;
+	height: 80%;
+	border-radius: 30px;
+}
+
+.perusahaan p{
+	font-size: 120%;
+	padding: 20px;
+	text-align: justify;
+}
+
+/**/
+.developer{
+	border-bottom: 3px solid #F29203;
+}
+.developer h1{
+	letter-spacing: 4px;
+	padding: 15px;
+	margin-bottom: 4%;
+	font-family: Quicksand,sans-serif;
+}
+.developer .devkotak{
+	margin: 10px;
+	text-align: center;
+	padding-bottom: 20px;
+}
+
+.developer .devkotak img{
+	padding: 10px;
+}
+
+.devkotak h5{
+	font-weight: bold;
+	letter-spacing: 2px; 
+	margin-top: -20px;
+}
+.devkotak a:hover{
+	color: #F29203;
+}
+
+/**/
+
+.hubungi{
+}
+.hubungi h1{
+	letter-spacing: 4px;
+	padding: 15px;
+	margin-bottom: 4%;
+	font-family: Quicksand,sans-serif;
+}
+
+.hubungi h5{
+	letter-spacing: 2px;
+	font-weight: bold;
+}
+
+.hubungi form label{
+	letter-spacing: 2px;
+	font-weight: bold;
+}
+
+
+/*---*/
+.cabe h1{
+	letter-spacing: 4px;
+	padding: 15px;
+	margin-bottom: 4%;
+	font-family: Quicksand,sans-serif;
+}
+.cabe span{
+	background-color: #F29203;
+	padding: 4px;
+	border-radius: 4px;
+	color: white;
+	letter-spacing: 2px;
+	font-size: 105%;
+}
+.cabe h4{
+	border-bottom: 2px solid #F29203;
+}
+
+.cabe p{
+	text-align: justify;
+	padding: 10px;
+}
+
+.cabe i{
+	font-size: 390%;
+	color: #F29203;
+	border-radius: 290px;
+	padding: 30px;
+	margin: 10px;
+	box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.45);
+}
+
+
+/*----------------------------LOGIN-----------------------*/
+.login{
+	height: 600px;
+}
+
+.login .kanan-login{
+	background-color: #F29203;
+	padding: 20px;
+}
+.login .kanan-login h2{
+	text-align: center;
+	letter-spacing: 3px;
+	font-weight:bold; 
+	margin-bottom: 40px;
+	
+}
+
+.login .kanan-login label {
+	font-weight:bold;
+}
+.login .kanan-login button {
+	font-weight: bold;
+	letter-spacing: 5px;
+	margin-top: 10px;
+}
+.login .kanan-login a {
+	font-weight:bold;
+	text-decoration: none;
+}
+
+.login .kiri-login h1{
+	font-family: 'Rampart One', cursive;
+	padding: 10px;
+	color: #F29203;
+}
+.login .kiri-login img{
+	width: 100%;
+	height: auto;
+}
+
+@media (min-width: 991px){
+
+.login .kanan-login{
+	padding: 120px;
+}
+
+.login .kiri-login img{
+	width: 100%;
+	height: 587px;
+	padding: 20px;
+}
+
+.login .kanan-login h2{
+	margin-top: -20px;	
+}
+
+}
+
+/*------------------------   TOKO   -----------------*/
+.sampul{
+	height: 366px ;
+	width: 100%; 
+	background-image: url(../img/toko1.jpg);
+	background-attachment: fixed;
+	background-size: cover;
+}
+
+.toko .detail-toko{
+	margin-top: -70px;
+}
+
+.toko .detail-toko h1{
+	letter-spacing: 3px;
+	font-weight: bold;
+	font-family: Quicksand,sans-serif;
+}
+
+.toko .menu-toko{
+	margin: 50px;
+}
+.toko .menu-toko a{
+	
+	height: auto;
+	color:#fff;
+	border:5px solid #F29203;
+	border-radius: 100px;
+	background-color: #573002;
+	padding: 20px;
+	display: inline-block;
+}
+.toko .menu-toko i{
+	font-size: 160%;
+	padding: 10px;
+}
+
+@media (max-width: 591px){
+.sampul{
+	height: 166px ;
+	width: auto; 
+	background-image: url(../img/toko1.jpg);
+	background-attachment: fixed;
+	background-size: cover;
+	background-position: -290px -550px;
+}
+.toko .detail-toko img{
+	width: 150px;
+}
+
+}
+
+
+/*--------------------------DETAIl PRoduk----------------------*/
+.detailproduk{
+	margin: 10px auto;
+}
+.slider{
+    width: 100%;
+    height: 100%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    padding: 10px;
+}
+.product img{
+	width: auto;
+    height: 60px;
+    margin-bottom: 5px;
+    cursor: pointer;
+    opacity: 0.6;
+}
+
+.product img:hover{
+    opacity: 1;
+}
+
+.preview img{
+	width: 140vh;
+    height: 300px;
+}
+
+@media (min-width: 991px){
+.detailproduk{
+	margin: 10px auto;
+}
+.slider{
+    width: 100%;
+    height: 100%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+}
+.product img{
+	width: auto;
+    height: 100px;
+    margin-bottom: 5px;
+    cursor: pointer;
+    opacity: 0.6;
+}
+
+.product img:hover{
+    opacity: 1;
+}
+
+.preview img{
+	width: 140vh;
+    height: 500px;
+}
+
+}
+
+
+.detail{
+	margin-top: 50px;
+	font-weight: bold;
+
+}
+
+.detail h2{
+	letter-spacing: 3px;
+}
+
+.detail h6{
+	color: red;
+	letter-spacing: 2px;
+	margin-bottom: 20px;
+	font-size: 150%;
+}
+
+.detail p{
+	padding-bottom: 10px;
+}
+
+.detailnya span{
+	background-color: #F29203;
+	padding: 4px;
+	border-radius: 4px;
+	color: white;
+	letter-spacing: 2px;
+	font-size: 105%;
+}
+.detailnya h4{
+	border-bottom: 2px solid #F29203;
+}
+
+.detailnya p{
+	text-align: justify;
+	padding: 10px;
+}
+
+@media (max-width: 591px){
+.detail .col-sm-6 {
+	margin-bottom: 20px;
+	margin-top: -20px;
+}
+}
+
+/**/
+
+.namatoko{
+	width: auto;
+	height: auto;
+	background-color: #573002;
+	padding: 20px;
+	margin-top: 50px;
+	color: white;
+}
+.namatoko .col-sm-4{
+	margin-top: 25px;
+	font-weight: bold;
+	letter-spacing: 3px;
+	font-size: 150%;
+}
+
+.namatoko .col-sm-6{
+	margin-top: 45px;
+	font-weight: bold;
+	letter-spacing: 1px;
+	font-size: 130%;
+	text-align: justify;
+}
+@media (max-width: 591px){
+.namatoko .col-sm-4{
+	margin-top: 10px;
+	font-weight: bold;
+	letter-spacing: 3px;
+	font-size: 150%;
+	text-align: center;
+}
+
+.namatoko .col-sm-6{
+	margin-top: 25px;
+	font-weight: bold;
+	letter-spacing: 1px;
+	font-size: 100%;
+	text-align: justify;
+}
+}
+
+
+/*-------------------------- KERANJANG ------------------------------*/
+.tabelkeranjang{
+	margin-top: 10px;
+}
+
+.tabelkeranjang table{
+	border:2px solid black;
+	vertical-align: middle;
+}
+
+.tabelkeranjang table tr th{
+	letter-spacing: 2px;
+}
+.tabelkeranjang table h5{
+	font-weight: bold;
+	margin-top: 10px;
+	
+}
+
+
+@media (min-width: 991px){
+.tabelkeranjang table tr th{
+	letter-spacing: 2px;
+	font-size: 130%;
+}	
+.tabelkeranjang table h5{
+	margin-left: -70px;
+}
+.tabelkeranjang table h6{
+	margin-left: -70px;
+}
+}

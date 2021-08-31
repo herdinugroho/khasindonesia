@@ -1,0 +1,238 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+    <!-- Google Icon-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+
+    <!-- Google Fonts-->
+    <link href="https://fonts.googleapis.com/css2?family=Aladin&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Quintessential&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Pontano+Sans&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <link rel="stylesheet" type="text/css" href="assets/library/owlcarousel/dist/assets/owl.carousel.min.css">
+    
+    <title>Detail Produk Khas Indonesia</title>
+
+
+    <style type="text/css">
+      
+    </style>
+  </head>
+  <body>
+    <!--Navbar-->
+    <nav class="navbar navbar-expand-lg  sticky-top navbar-light ">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="index.html">LOGO</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse " id="navbarSupportedContent">
+          <ul class="navbar-nav mx-auto mb-2 mb-lg-0 ">
+            <li class="nav-item">
+             <select class="form-select" aria-label="Default select example">
+              <option selected>Cari Kategori</option>
+              <option value="1">One</option>
+              <option value="2">Two</option>
+              <option value="3">Three</option>
+            </select>
+          </li>
+          <li class="nav-item dropdown">
+            <select class="form-select" aria-label="Default select example">
+              <option selected>Cari Sesuai Daerah</option>
+              <option value="1">One</option>
+              <option value="2">Two</option>
+              <option value="3">Three</option>
+            </select>
+          </li>
+          <li class="nav-item">
+           <form class="d-flex">
+            <input class="form-control me-2" type="search" placeholder="Cari" aria-label="Cari">
+            <button class="btn btn-outline-warning" type="submit">Cari</button>
+          </form>
+        </li>
+      </ul>
+      <form class="d-flex">
+        <a href="" style="color: black;">
+          <i class="fas fa-cart-plus" style=" padding-right: 10px; font-size: 130%; margin: 7px;"></i>
+        </a>
+        <a href="" style="color: black;">
+          <i class="far fa-user-circle" style=" padding-right: 10px; font-size: 130%; margin: 7px;"></i>
+        </a>
+     </form>
+    </div>
+    </div>
+    </nav>
+<!--Navbar-->
+
+<!-- DETAIl produk-->
+  <div class="container-fluid detailproduk">
+        <div class="row">
+
+            <div class="col-sm-6">
+                <div class="slider">
+                    <div class="product">
+                        <img src="assets/img/images/product1.png" alt="" class="img-fluid" onclick="clickme(this)">
+                        <img src="assets/img/images/product2.png" alt="" class="img-fluid" onclick="clickme(this)">
+                        <img src="assets/img/images/product3.png" alt="" class="img-fluid" onclick="clickme(this)">
+                        <img src="assets/img/images/product4.png" alt="" class="img-fluid" onclick="clickme(this)">
+                    </div>
+                    <div class="preview  ">
+                        <img src="assets/img/images/product1.png" id="imagebox" alt="" class="img-fluid">
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-sm-5 ">
+                <div class="detail">
+                      <h2>Dress Solo</h2>
+                      <h6>Rp.500.000</h6>
+                      <div class="row">
+                        <div class="col-sm-4">
+                          <p>Warna</p>
+                        </div> 
+                        <div class="col-sm-6">  
+                           <select class="form-select" aria-label="Default select example" style="margin-bottom:  10px;">
+                            <option selected>Open this select menu</option>
+                            <option value="1">One</option>
+                            <option value="2">Two</option>
+                            <option value="3">Three</option>
+                          </select>
+                        </div></br>
+                        <div class="col-sm-4 ">
+                          <p>Ukuran</p>
+                        </div> 
+                        <div class="col-sm-6">  
+                          <button class="btn btn-info" type="submit">S</button>
+                          <button class="btn btn-primary" type="submit">M</button>
+                          <button class="btn btn-danger" type="submit">L</button>
+                          <button class="btn btn-success" type="submit">XL</button>
+                        </div> 
+                        <div class="col-sm-4">
+                          <p>Kantitas</p>
+                        </div> 
+                        <div class="col-sm-6">  
+                          <select class="form-select" aria-label="Default select example" style="margin-bottom:  10px;">
+                            <option selected>Open this select menu</option>
+                            <option value="1">One</option>
+                            <option value="2">Two</option>
+                            <option value="3">Three</option>
+                          </select>
+                        </div> 
+                        <div class="detailnya"> 
+                        <span>Detail Produk</span>
+                          <h4></h4>
+                          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                          tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                          quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                          consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                          cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+                          proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                        </div>   
+                        <div class="col-sm-8">
+                         <button class="btn btn-info" type="submit" style="background-color: #F29203; border:none;">Tambah Ke Keranjang</button>
+                          <button class="btn btn-primary" type="submit" style="background-color: #573002; border:none;">Beli Produk</button>
+                         </div>
+                            
+                      </div>
+                </div>
+            </div>
+
+        </div>
+  </div>
+<!-- Detail Produk-->
+
+<!-- NAma Toko-->
+  <section class="namatoko">
+    <div class="container">
+      <div class="row ">
+        <div class="col-sm-2">
+          <img src="assets/img/developer.png" class="img-fluid rounded-circle" style="border:4px solid #F29203; " width="700px;">
+        </div>
+        <div class="col-sm-4">
+          <p>Sharinah Solo</p>
+           <button class="btn btn-warning" type="submit" style="color: white; letter-spacing: 1px;">kunjungi toko</button>
+        </div>
+        <div class="col-sm-6">
+          <p style="font-weight: bold;">Jl. Jenggolo Selatan II No.3, Nusukan, Kec. Banjarsari, Kota Surakarta, Jawa Tengah 57135</p>
+        </div>
+      </div>
+    </div>
+  </section>
+<!-- Nama Toko-->
+
+<!--Footer-->
+    <footer>
+    
+      <div class="container">
+        <div class="row row-cols-1 row-cols-md-4">
+          <div class="col kapro">
+            <h3>Kategori Produk</h3>
+            <a href="">Kaos</a><br>
+            <a href="">Kerajinan</a><br>
+            <a href="">Batik</a><br>
+            <a href="">Kuliner</a><br>
+          </div>
+          <div class="col kapro">
+            <h3>Menu Lainnya</h3>
+            <a href="">Cara Pemesanan</a><br>
+            <a href="">Ketentuan Pemesanan</a><br>
+            <a href="">Proses Pemesanan</a><br>
+            <a href="">Pengembalian Pemesanan</a><br>
+            <a href="">Tentang Kami</a><br>
+            
+          </div>
+          <div class="col" >
+            <h3>Ikuti Kami</h3>
+            <a class="btn btn-primary" style="background-color: #3b5998; border-radius: 40px; border:none; margin: 5px;" href="#!" role="button"><i class="fab fa-facebook-f"></i> Facebook</a>
+            <a class="btn btn-primary" style="background-color: #ac2bac; border-radius: 40px; border:none; margin: 5px;" href="#!" role="button"><i class="fab fa-instagram"></i> Instagram</a><br>
+            <a class="btn btn-primary" style="background-color: #25d366; border-radius: 40px; border:none; margin: 5px;" href="#!" role="button"><i class="fab fa-whatsapp"></i> Whatsapp</a><br>
+          </div>
+          
+          <div class="col mepe">
+            <h3>Metode Pembayaran</h3>
+            <img src="assets/img/transaksi/bca.jpg">
+            <img src="assets/img/transaksi/bni.png">
+            <img src="assets/img/transaksi/atmbersama.jpg">
+            <img src="assets/img/transaksi/mandiri.jpg">
+            <img src="assets/img/transaksi/alfamart.png">
+            <img src="assets/img/transaksi/alfamidi.jpg">
+            <img src="assets/img/transaksi/indomaret.png"><br>
+            <h3>Metode Pengiriman</h3>
+            <img src="assets/img/transaksi/jne.jpg">
+            <img src="assets/img/transaksi/jnt.jpg">
+            <img src="assets/img/transaksi/tiki.jpg">
+            <img src="assets/img/transaksi/sicepat.jpg">
+          </div>
+        </div>
+      </div>
+    
+    </footer>
+     <div class="copyright" align="center">
+        <h3>Created By : www.janeTech.com <i class="far fa-copyright">2021</i></h3>
+      </div>
+<!--Footer-->
+
+    <!--Jquery JS-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    
+    <!--Bootstrap JS-->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js" integrity="sha384-eMNCOe7tC1doHpGoWe/6oMVemdAVTMs2xqW4mwXrXsW0L84Iytr2wi5v2QjrP/xp" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.min.js" integrity="sha384-cn7l7gDp0eyniUwwAZgrzD06kc/tftFf19TOAs2zVinnD/C7E91j9yyk5//jjpt/" crossorigin="anonymous"></script>
+
+    <!--LIbrary-->
+    <script type="text/javascript" src="assets/library/owlcarousel/dist/owl.carousel.min.js"></script>
+   
+
+
+    <script type="text/javascript" src="assets/js/main.js"></script>
+  </body>
+</html>
