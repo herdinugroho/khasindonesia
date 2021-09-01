@@ -516,19 +516,22 @@ border-radius: 15px;
 .toko .menu-toko{
 	margin: 50px;
 }
-.toko .menu-toko a{
-	
+.toko .menu-toko a{	
 	height: auto;
-	color:#fff;
-	border:5px solid #F29203;
-	border-radius: 100px;
-	background-color: #573002;
+	color:#573002;
 	padding: 20px;
 	display: inline-block;
 }
-.toko .menu-toko i{
-	font-size: 160%;
-	padding: 10px;
+
+.toko .menu-toko a:hover{	
+	height: auto;
+	color:#F29203;
+	padding: 20px;
+	display: inline-block;
+}
+.toko .menu-toko i {
+    font-size: 500%;
+    padding: 10px;
 }
 
 @media (max-width: 591px){
