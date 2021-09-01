@@ -27,10 +27,44 @@ body{
 	opacity: 0.9;
 	
 }
+
+.grid_3 {
+    width: 220px;
+}
+
+.angka {
+    font-weight: 300;
+    float: left;
+    width: 100px;
+    font-size: 72px;
+    line-height: 58px;
+}
+
+.clear {
+    float: none !important;
+    clear: both;
+}
+
 @media (max-width: 591px){
 	.header{
 	width: auto;
 	height: 176px ;
+}
+.grid_3 {
+    width: 220px;
+}
+
+.angka {
+    font-weight: 300;
+    float: left;
+    width: 100px;
+    font-size: 72px;
+    line-height: 58px;
+}
+
+.clear {
+    float: none !important;
+    clear: both;
 }
 }
 /**/
