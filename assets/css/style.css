@@ -479,6 +479,33 @@ border-radius: 15px;
 	background-color: #F29203;
 	padding: 20px;
 }
+
+.login .kanan-daftar{
+	background-color: #F29203;
+	padding: 20px;
+}
+
+.login .kanan-daftar h2{
+	text-align: center;
+	letter-spacing: 3px;
+	font-weight:bold; 
+	margin-bottom: 40px;
+	
+}
+
+.login .kanan-daftar label {
+	font-weight:bold;
+}
+.login .kanan-daftar button {
+	font-weight: bold;
+	letter-spacing: 5px;
+	margin-top: 10px;
+}
+.login .kanan-daftar a {
+	font-weight:bold;
+	text-decoration: none;
+}
+
 .login .kanan-login h2{
 	text-align: center;
 	letter-spacing: 3px;
@@ -516,10 +543,19 @@ border-radius: 15px;
 	padding: 120px;
 }
 
-.login .kiri-login img{
-	width: 100%;
-	height: 587px;
-	padding: 20px;
+.login .kanan-daftar {
+    padding-left: 120px;
+    padding-bottom: 10px;
+    padding-top: 70px;
+    padding-right: 120px;
+}
+
+.login .kiri-login img {
+    width: 100%;
+    height: 587px;
+    padding-left: 30px;
+	padding-right: 30px;
+    padding-top: 20px;
 }
 
 .login .kanan-login h2{
