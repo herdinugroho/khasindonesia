@@ -2,6 +2,26 @@ body{
 	font-family: 'Pontano Sans', sans-serif;
 }
 
+/* profile */
+.menu-profil{
+	background-color:#573002;
+	padding: 10px;
+}
+
+.menu-profil  a:hover{
+	color: #F29203;
+}
+
+.navbar-pesanan{
+	border: black 2px solid;
+	padding-left: 250px;
+	padding-right: 250px;
+}
+
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+    color: #fff;
+    background-color: #573002;
+}
 /*------------------- HEADER --------------*/
 .navbar{
 	background: #F29203;
