@@ -60,6 +60,11 @@ body{
     line-height: 58px;
 }
 
+.clear {
+    float: none !important;
+    clear: both;
+}
+
 
 @media (max-width: 591px){
 	.header{
@@ -77,7 +82,10 @@ body{
     font-size: 72px;
     line-height: 58px;
 }
-
+.clear {
+    float: none !important;
+    clear: both;
+}
 
 }
 /**/
@@ -312,7 +320,7 @@ border-radius: 15px;
 	background:#F29203;
 	padding: 10px;
 	color: white;
-	margin-top: -250px;
+	margin-top: -255px;
 }
 
 .info-kuning small{
@@ -320,10 +328,18 @@ border-radius: 15px;
 
 }
 
+@media (max-width: 376px) {
+	.info-kuning{
+		padding: 20px;
+		margin-top: -280px;
+		
+	}
+}
+
 @media (min-width: 991px){
 	.info-kuning{
 	padding: 20px;
-	margin-top: -200px;
+	margin-top: -190px;
 	
 }
 }
