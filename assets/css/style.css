@@ -53,6 +53,11 @@ border-radius: 15px;
     line-height: 58px;
 }
 
+.clear {
+    float: none !important;
+    clear: both;
+}
+
 
 @media (max-width: 591px){
 	.header{
@@ -70,7 +75,10 @@ border-radius: 15px;
     font-size: 72px;
     line-height: 58px;
 }
-
+.clear {
+    float: none !important;
+    clear: both;
+}
 
 }
 /**/
@@ -301,7 +309,7 @@ footer .mepe img{
 	background:#F29203;
 	padding: 10px;
 	color: white;
-	margin-top: -250px;
+	margin-top: -255px;
 }
 
 .info-kuning small{
@@ -309,10 +317,18 @@ footer .mepe img{
 
 }
 
+@media (max-width: 376px) {
+	.info-kuning{
+		padding: 20px;
+		margin-top: -280px;
+		
+	}
+}
+
 @media (min-width: 991px){
 	.info-kuning{
 	padding: 20px;
-	margin-top: -200px;
+	margin-top: -190px;
 	
 }
 }
