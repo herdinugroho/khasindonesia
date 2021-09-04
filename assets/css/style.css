@@ -2,6 +2,16 @@ body{
 	font-family: 'Pontano Sans', sans-serif;
 }
 
+
+/*------------------ LAIN-LAIN -------------------*/
+
+
+.owl-carousel img{
+border-radius: 15px;
+
+}
+
+
 /*------------------- HEADER --------------*/
 .navbar{
 	background: #F29203;
@@ -161,9 +171,9 @@ body{
 /*------------------ PRODUK -------------------*/
 .prote{
 width: 100%;
-height: auto;
+height:100%;
 background: #EADFD2;
-padding: 50px;
+padding: 30px;
 }
 
 .prote-judul{
@@ -193,8 +203,12 @@ padding: 50px;
 	margin-top: -10%;
 	font-weight:  bold;
 }
-
-.prote .prote-isi .card a{
+.prote .prote-isi .btn i{
+	color: white;
+}
+.prote .prote-isi .btn i:hover{
+	color:black;
+	
 }
 
 .prote .prote-isi .card h4{
@@ -250,17 +264,6 @@ footer .mepe img{
 	font-size: 100%;
 	padding: 15px;
 	
-}
-
-
-
-.owl-carousel{
-	margin-top: -190px;
-}
-.owl-carousel img{
-border-radius: 15px;
-
-
 }
 
 
@@ -388,8 +391,7 @@ border-radius: 15px;
 
 /**/
 
-.hubungi{
-}
+
 .hubungi h1{
 	letter-spacing: 4px;
 	padding: 15px;
@@ -519,22 +521,21 @@ border-radius: 15px;
 	font-family: Quicksand,sans-serif;
 }
 
-.toko .menu-toko{
-	margin: 50px;
-}
+
 .toko .menu-toko a{
-	
 	height: auto;
-	color:#fff;
-	border:5px solid #F29203;
-	border-radius: 100px;
-	background-color: #573002;
-	padding: 20px;
+	color:#573002;
+	padding: 10px;
 	display: inline-block;
 }
 .toko .menu-toko i{
-	font-size: 160%;
-	padding: 10px;
+	font-size: 250%;
+	padding: 15px;
+	text-shadow: 0 0 5px grey, 0 0 10px #F29203;
+}
+
+.toko .menu-toko i:hover{
+	color:#F29203 ;
 }
 
 @media (max-width: 591px){
@@ -550,6 +551,10 @@ border-radius: 15px;
 	width: 150px;
 }
 
+.toko .menu-toko i{
+	font-size: 200%;
+	padding: 5px;
+}
 }
 
 
@@ -737,3 +742,5 @@ border-radius: 15px;
 	margin-left: -70px;
 }
 }
+
+
