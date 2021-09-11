@@ -2,6 +2,7 @@ body{
 	font-family: 'Pontano Sans', sans-serif;
 }
 
+<<<<<<< HEAD
 
 /*------------------ LAIN-LAIN -------------------*/
 
@@ -11,6 +12,28 @@ border-radius: 15px;
 }
 
 
+=======
+/* profile */
+.menu-profil{
+	background-color:#573002;
+	padding: 10px;
+}
+
+.menu-profil  a:hover{
+	color: #F29203;
+}
+
+.navbar-pesanan{
+	border: black 2px solid;
+	padding-left: 250px;
+	padding-right: 250px;
+}
+
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+    color: #fff;
+    background-color: #573002;
+}
+>>>>>>> 35022721ef84043cf8e31f95c7ff6520032fcc88
 /*------------------- HEADER --------------*/
 .navbar{
 	background: #F29203;
@@ -155,6 +178,7 @@ border-radius: 15px;
 
 /**/
 
+<<<<<<< HEAD
 .header-tombol .btn{
 	width: 60px;
 	height: 55px;
@@ -167,6 +191,18 @@ border-radius: 15px;
 	display: outline;
 	position: relative;
 	
+=======
+.header-tombol .btn {
+    width: 60px;
+    height: 60px;
+    padding-top: 10px;
+    margin-top: 3px;
+    margin-right: px;
+    top: -290px;
+    right: -60%;
+    border-radius: 10px;
+    position: relative;
+>>>>>>> 35022721ef84043cf8e31f95c7ff6520032fcc88
 }
 
 .header-tombol .btn span{
@@ -187,16 +223,16 @@ border-radius: 15px;
 	font-size: 90%;
 	
 }
-	.header-tombol .btn{
-	width: 90px;
-	height: 90px;
-	padding-top: 10px;
-	margin-top: 10px;
-	margin-right: 8px;
-	top: -290px;
-	right: -70%;
-	border-radius: 20px;
-	position: relative;
+.header-tombol .btn {
+    width: 90px;
+    height: 90px;
+    padding-top: 10px;
+    margin-top: 5px;
+    margin-right: 3px;
+    top: -290px;
+    right: -70%;
+    border-radius: 10px;
+    position: relative;
 }
 }
 
@@ -600,6 +636,7 @@ footer .mepe img{
 	font-family: Quicksand,sans-serif;
 }
 
+<<<<<<< HEAD
 
 .toko .menu-toko a{
 	height: auto;
@@ -615,6 +652,27 @@ footer .mepe img{
 
 .toko .menu-toko i:hover{
 	color:#F29203 ;
+=======
+.toko .menu-toko{
+	margin: 50px;
+}
+.toko .menu-toko a{	
+	height: auto;
+	color:#573002;
+	padding: 20px;
+	display: inline-block;
+}
+
+.toko .menu-toko a:hover{	
+	height: auto;
+	color:#F29203;
+	padding: 20px;
+	display: inline-block;
+}
+.toko .menu-toko i {
+    font-size: 500%;
+    padding: 10px;
+>>>>>>> 35022721ef84043cf8e31f95c7ff6520032fcc88
 }
 
 @media (max-width: 591px){
