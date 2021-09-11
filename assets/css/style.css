@@ -53,10 +53,6 @@ border-radius: 15px;
     line-height: 58px;
 }
 
-.clear {
-    float: none !important;
-    clear: both;
-}
 
 @media (max-width: 591px){
 	.header{
@@ -75,10 +71,7 @@ border-radius: 15px;
     line-height: 58px;
 }
 
-.clear {
-    float: none !important;
-    clear: both;
-}
+
 }
 /**/
 .header-title {
