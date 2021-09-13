@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="" />
+        <meta name="author" content="" />
+        <title>Dashboard - SB Admin</title>
+        <link href="https://cdn.jsdelivr.net/npm/simple-datatables@latest/dist/style.css" rel="stylesheet" />
+        <link href="css/styles.css" rel="stylesheet" />
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/js/all.min.js" crossorigin="anonymous"></script>
+    </head>
+    <body class="sb-nav-fixed">
+        <nav class="sb-topnav navbar navbar-expand navbar-dark bg-dark">
+            <!-- Navbar Brand-->
+            <a class="navbar-brand ps-3" href="index.html">Toko Sharinah - jakarta</a>
+            <!-- Sidebar Toggle-->
+            <button class="btn btn-link btn-sm order-1 order-lg-0 me-4 me-lg-0" id="sidebarToggle" href="#!"><i class="fas fa-bars"></i></button>
+             <!-- Navbar Search-->
+             <form class="d-none d-md-inline-block form-inline ms-auto me-0 me-md-3 my-2 my-md-0">
+            </form>
+            <!-- Navbar-->
+            <ul class="navbar-nav ms-auto ms-md-0 me-3 me-lg-4">
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" id="navbarDropdown" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false"><i class="fas fa-user fa-fw"></i></a>
+                    <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdown">
+                        <li><a class="dropdown-item" href="#!">profi</a></li>
+                        <li><a class="dropdown-item" href="#!">Password</a></li>
+                        <li><hr class="dropdown-divider" /></li>
+                        <li><a class="dropdown-item" href="#!">Keluar</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </nav>
+        <div id="layoutSidenav">
+            <div id="layoutSidenav_nav">
+                <nav class="sb-sidenav accordion sb-sidenav-dark" id="sidenavAccordion">
+                    <div class="sb-sidenav-menu">
+                        <div class="nav">
+                            <a class="nav-link" href="index.html">
+                                <div class="sb-nav-link-icon"><i class="fas fa-home"></i></div>
+                                Toko Saya
+                            </a>
+                            <a class="nav-link" href="profil.html">
+                                <div class="sb-nav-link-icon"><i class="fas fa-user"></i></div>
+                                Profil Saya
+                            </a>
+                            <a class="nav-link collapsed" href="#" data-bs-toggle="collapse" data-bs-target="#collapsePages" aria-expanded="false" aria-controls="collapsePages">
+                                <div class="sb-nav-link-icon"><i class="fas fa-box"></i></div>
+                                Produk
+                                <div class="sb-sidenav-collapse-arrow"><i class="fas fa-angle-down"></i></div>
+                            </a>
+                            <div class="collapse" id="collapsePages" aria-labelledby="headingTwo" data-bs-parent="#sidenavAccordion">
+                                <nav class="sb-sidenav-menu-nested nav accordion" id="sidenavAccordionPages">
+                                    <a class="nav-link collapsed" href="#" data-bs-toggle="collapse" data-bs-target="#pagesCollapseAuth" aria-expanded="false" aria-controls="pagesCollapseAuth">
+                                        Kategori Produk
+                                        <div class="sb-sidenav-collapse-arrow"><i class="fas fa-angle-down"></i></div>
+                                    </a>
+                                    <div class="collapse" id="pagesCollapseAuth" aria-labelledby="headingOne" data-bs-parent="#sidenavAccordionPages">
+                                        <nav class="sb-sidenav-menu-nested nav">
+                                            <a class="nav-link" href="login.html">Kuliner</a>
+                                            <a class="nav-link" href="register.html">Pakaian</a>
+                                            <a class="nav-link" href="password.html">Kerajinan</a>
+                                        </nav>
+                                    </div>
+                                    <a class="nav-link collapsed" href="#" data-bs-toggle="collapse" data-bs-target="#pagesCollapseError" aria-expanded="false" aria-controls="pagesCollapseError">
+                                        Transaksi
+                                        <div class="sb-sidenav-collapse-arrow"><i class="fas fa-angle-down"></i></div>
+                                    </a>
+                                    <div class="collapse" id="pagesCollapseError" aria-labelledby="headingOne" data-bs-parent="#sidenavAccordionPages">
+                                        <nav class="sb-sidenav-menu-nested nav">
+                                            <a class="nav-link" href="401.html">kuliner</a>
+                                            <a class="nav-link" href="404.html">Pakaian</a>
+                                            <a class="nav-link" href="500.html">Kerajinan</a>
+                                        </nav>
+                                    </div>
+                                </nav>
+                            </div>
+                            <a class="nav-link" href="charts.html">
+                                <div class="sb-nav-link-icon"><i class="fas fa-sign-out-alt"></i></div>
+                                Keluar
+                            </a>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+            <div id="layoutSidenav_content">
+                <main>
+                    <div class="container-fluid px-sm-4">
+                        <h1 class="mt-4">Detail Pesanan</h1>
+                        <ol class="breadcrumb mb-4">
+                            <li class="breadcrumb-item active">Pesanan saya</li>
+                        </ol>
+                        <div class="row">
+                            <div class="col-xl-6">
+                                <div class="card mb-4">
+                                    <div class="card-header">
+                                        <i class="fas fa-table"></i>
+                                     Data Pesanan
+                                    </div>
+                                    <div class="card-body">
+                                        <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
+                                            <li class="nav-item" role="presentation">
+                                              <button class="nav-link active" id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-home" type="button" role="tab" aria-controls="pills-home" aria-selected="true">Pesanan</button>
+                                            </li>
+                                            <li class="nav-item" role="presentation">
+                                              <button class="nav-link" id="pills-profile-tab" data-bs-toggle="pill" data-bs-target="#pills-profile" type="button" role="tab" aria-controls="pills-profile" aria-selected="false">Pengiriman</button>
+                                            </li>
+                                          </ul>
+                                          <div class="tab-content" id="pills-tabContent">
+                                            <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
+                                                    
+                                                <ul style="list-style: none;">
+                                                       <li>
+                                                           <h4>No. Pesanan : INV/123424/URFERUFE/765347</h4>
+                                                       </li>
+                                                       <li class="mb-2">
+                                                           <div class="row">
+                                                               <div class="col-sm-6">
+                                                                   Nama Pembeli
+                                                               </div>
+                                                               <div class="col-sm-6">
+                                                                   Basri
+                                                               </div>
+                                                           </div>
+                                                       </li>
+                                                       <li class="mb-2">
+                                                        <div class="row">
+                                                            <div class="col-sm-6">
+                                                                Tanggal Pembelian
+                                                            </div>
+                                                            <div class="col-sm-6">
+                                                                minggu,12 oktober 1023
+                                                            </div>
+                                                        </div>
+                                                       </li>
+                                                       <li class="mb-2">
+                                                        <div class="row">
+                                                            <div class="col-sm-6">
+                                                                Batas respone
+                                                            </div>
+                                                            <div class="col-sm-6">
+                                                                <h6 class="p-2" style="background-color: yellowgreen; color: white;">13 0ktober 2018</h6>
+                                                            </div>
+                                                        </div>
+                                                       </li>
+                                                   </ul>
+                                                  
+                                            </div>
+                                            <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">
+                                                <ul style="list-style: none;">
+                                                    <li>
+                                                        <h4>No. Resi : 346563562378</h4>
+                                                    </li>
+                                                    <li class="mb-2">
+                                                        <div class="row">
+                                                            <div class="col-sm-6">
+                                                                Kurir
+                                                            </div>
+                                                            <div class="col-sm-6">
+                                                                JNE - express
+                                                            </div>
+                                                        </div>
+                                                    </li>
+                                                    <li class="mb-2">
+                                                     <div class="row">
+                                                         <div class="col-sm-6">
+                                                             Alamat pembeli
+                                                         </div>
+                                                         <div class="col-sm-6">
+                                                            <p class="card-text">Jln. solobalapan desa pegangdaan timur, dekat rumah pak gibran</p>
+                                                         </div>
+                                                     </div>
+                                                    </li>
+                                                    
+                                                </ul>
+                                                <div class="modal-footer">
+                                                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">cetak</button>
+                                                    <button type="submit" class="btn btn-primary">kirim</button>
+                                                </div>
+                                            </div>
+                                            
+                                          </div>
+                                           
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-xl-6">
+                                <div class="card mb-4">
+                                    <div class="card-header">
+                                        <i class="fas fa-chart-bar me-1"></i>
+                                        Detail Produk
+                                    </div>
+                                    <div class="row g-0">
+                                        <div class="col-md-4">
+                                          <img src="assets/img/face1.jpg" class="rounded mx-auto d-block mt-4" alt="...">
+                                        </div>
+                                        <div class="col-md-8">
+                                          <div class="card-body">
+                                            <h5 class="card-title mb-4">Alen Alen trenggalek</h5>
+                                            <h6>2 X Rp. 5000,-</h6>
+                                            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, quaerat, vero cupiditate ipsum nesciunt a soluta dolorem eos optio non id cum numquam mollitia, error officia nostrum earum vel ut?</p>
+                                          </div>
+                                        </div>
+                                      </div>
+                                      </div>
+                            </div>
+                        </div>
+                    </div>
+                </main>
+                <footer class="py-4 bg-light mt-auto">
+                    <div class="container-fluid px-4">
+                        <div class="d-flex align-items-center justify-content-between small">
+                            <div class="text-muted">Copyright &copy; janeTech 2021</div>
+                            <div>
+                                <a href="#">Privacy Policy</a>
+                                &middot;
+                                <a href="#">Terms &amp; Conditions</a>
+                            </div>
+                        </div>
+                    </div>
+                </footer>
+            </div>
+        </div>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" crossorigin="anonymous"></script>
+        <script src="js/scripts.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.8.0/Chart.min.js" crossorigin="anonymous"></script>
+        <script src="assets/demo/chart-area-demo.js"></script>
+        <script src="assets/demo/chart-bar-demo.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/simple-datatables@latest" crossorigin="anonymous"></script>
+        <script src="js/datatables-simple-demo.js"></script>
+    </body>
+</html>
