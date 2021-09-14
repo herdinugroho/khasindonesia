@@ -187,34 +187,31 @@
                                 <div class="card mb-4">
                                     <div class="card-header">
                                         <i class="fas fa-table"></i>
-                                     Data Produk
+                                     Data kurir
                                     </div>
                                     <div class="card-body">
+                                        <button type="button" class="btn btn-primary mb-2 tambah-kurir" data-bs-toggle="modal" data-bs-target="#exampleModal"><i class="fas fa-plus"></i></button>
                                         <table id="datatablesSimple">
                                             <thead>
                                                 <tr>
                                                     <th>No</th>
-                                                    <th>Nama Produk</th>
-                                                    <th>Harga</th>
+                                                    <th>Nama kurir</th>
                                                     <th>Aksi</th>
                                                 </tr>
                                             </thead>
                                             <tfoot>
                                                 <tr>
                                                     <th>No</th>
-                                                    <th>Nama Produk</th>
-                                                    <th>Harga</th>
+                                                    <th>Nama Kurir</th>
                                                     <th>Aksi</th>
                                                 </tr>
                                             </tfoot>
                                             <tbody>
                                                 <tr>
                                                     <td>1</td>
-                                                    <td>System Architect</td>
-                                                    <td>$320,800</td>
+                                                    <td>JNe</td>
                                                     <td>
-                                                        <a href="#"><button type="button" class="btn btn-primary"><i class="fas fa-plus"></i></button></a>
-                                                        <a href="#"><button type="button" class="btn btn-success"><i class="fas fa-info"></i></button></a>
+                                                        <a href="#"><button type="button" class="btn btn-success informasi" data-bs-toggle="modal" data-bs-target="#exampleModal"><i class="fas fa-info" ></i></button></a>
                                                         <a href=""><button type="button" class="btn btn-danger"><i class="fas fa-trash"></i></button></a>
                                                     </td>
                                                 </tr>
@@ -249,5 +246,56 @@
         <script src="assets/demo/chart-bar-demo.js"></script>
         <script src="https://cdn.jsdelivr.net/npm/simple-datatables@latest" crossorigin="anonymous"></script>
         <script src="js/datatables-simple-demo.js"></script>
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+         <!-- Modal -->
+         <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">Tetapkan Kurir</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                          <div class="mb-1 row kurir">
+                            <label for="inputPassword" class="col-sm-2 col-form-label ">Pengiriman</label>
+                            <div class="col-sm-10">
+                                <select class="form-select form-select-sm" aria-label=".form-select-sm example">
+                                  <option selected>Pilih jasa pengiriman</option>
+                                  <option value="1">JNE</option>
+                                  <option value="2">Si cepat</option>
+                                  <option value="3">JNT</option>
+                                </select>
+                            </div>
+                          </div>
+                          <ul style="list-style: none;">
+                              <li>Jne - Express - Rp 23857348</li>
+                              <li>Jne - Express - Rp 23857348</li>
+                              <li>Jne - Express - Rp 23857348</li>
+                          </ul>
+                        
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                        <button type="submit" class="btn btn-primary">Pilih</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script>
+            $(document).ready(function () {
+           $(".tambah-kurir").click(function () { 
+                $('.modal-title').html('Tetapkan Kurir');
+                $('.modal-footer :button[type=submit]').html('Pilih');
+                $('ul').hide();
+                $('.kurir').show();
+            });
+
+            $(".informasi").click(function () { 
+                $('.modal-title').html('Detail Kurir');
+                $('.modal-footer').hide();
+                $('ul').show();
+                $('.kurir').show();
+            });
+        });
+        </script>
     </body>
 </html>
