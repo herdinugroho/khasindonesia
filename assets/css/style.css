@@ -244,13 +244,19 @@ footer h3{
 	letter-spacing: 3px;
 }
 
-footer .kapro a{
+footer .kapro a {
 	letter-spacing: 1px;
 	text-decoration: none;
 	color: white;
 }
-footer .kapro a:hover{
+footer .kapro a:hover i{
+	padding-right: .5rem;
 	color: grey;
+}
+
+footer .ikuti .btn:hover  {
+	 animation:  1s;
+box-shadow: 0 0.5em 0.5em -0.4em ;
 }
 footer .mepe img{
 	width:80px; 
