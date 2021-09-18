@@ -788,9 +788,14 @@ footer .mepe img{
 	padding-top: 15px;
 	padding-left: 20px;
 	margin-top: 25px;
+
 }
 .checkout .produkpesanan p{
 	font-size: 110%;
+}
+.checkout .produkpesanan img{
+	margin-bottom:30px; 
+	border-radius: 5px;
 }
 @media (max-width: 591px){
 
@@ -800,6 +805,7 @@ footer .mepe img{
 }
 .checkout .produkpesanan img{
 	margin: 0 0 15px 0;
+	border-radius: 5px;
 }
 .checkout .produkpesanan h5{
 	font-size: 110%;
@@ -1007,4 +1013,31 @@ footer .mepe img{
 	border:none;
 	font-size: 10px;
 }
+}
+
+
+/*------------------------------------- PESANAN SAYA --------------------------------------*/
+.pesanansaya h4{
+	font-weight: bold;
+	font-size: 180%;
+	letter-spacing: 3px;
+	padding: 30px;
+}	
+
+/*---*/
+.menupesanan .nav-tabs{
+	background-color: #573002;
+}
+
+.menupesanan .nav-item button{
+	border-radius: 0px;
+	color: white;
+}
+
+.menupesanan .nav-item button:hover{
+	color: #F29203;
+}
+
+.menupesanan .nav-link{
+	letter-spacing: 2px;
 }
