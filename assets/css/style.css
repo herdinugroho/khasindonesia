@@ -1023,21 +1023,41 @@ footer .mepe img{
 	letter-spacing: 3px;
 	padding: 30px;
 }	
+@media (max-width: 591px){
+	.pesanansaya h4{
+	text-align: center;
+	font-size: 25px;
+}
+}
 
 /*---*/
 .menupesanan .nav-tabs{
 	background-color: #573002;
 }
-
 .menupesanan .nav-item button{
 	border-radius: 0px;
 	color: white;
 }
-
 .menupesanan .nav-item button:hover{
 	color: #F29203;
 }
-
 .menupesanan .nav-link{
 	letter-spacing: 2px;
 }
+
+.menupesanan .tombolpesanansaya{
+	width: 100%;
+	height: auto;
+	background: #C4C4C4;
+	padding-top: 15px;
+	padding-left: 10px;
+	padding-right:  10px;
+	border:solid 1px black;
+}
+
+.menupesanan .tombolpesanansaya .btn{
+	padding-left: 30px;
+	padding-right: 30px;
+	margin:0 5px 10px auto; 
+}
+
