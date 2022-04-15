@@ -2,6 +2,6 @@
 @section('body')
 <x-navbar />
 <x-banner />
-<x-coulasel />
-<x-terlaris />
+<x-info />
+<x-keranjang />
 @endsection
